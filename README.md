@@ -11,7 +11,7 @@ cd react-workspace
 ```
 npx create-react-app first-app 
 ```
-#### app 
+#### app 실행
 ```
 npm run start
 ```
