@@ -11,7 +11,7 @@ cd react-workspace
 ```
 npx create-react-app first-app 
 ```
-#### app 실행
+#### vs code 터미널에서 app 실행
 ```
 npm run start
 ```
