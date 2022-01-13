@@ -2,6 +2,10 @@
 
 ## React
 
+### directory 설치
+```
+mkdir react-workspace
+```
 ### 터미널에서 create-react-app 실행하기
 #### current directory
 ```
