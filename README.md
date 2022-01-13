@@ -7,7 +7,7 @@
 mkdir react-workspace
 ```
 ### 터미널에서 create-react-app 실행하기
-#### current directory
+#### change directory
 ```
 cd react-workspace 
 ```
