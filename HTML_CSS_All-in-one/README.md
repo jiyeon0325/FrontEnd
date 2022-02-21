@@ -29,3 +29,46 @@ margin-right: auto </br>
   margin-right: auto:
 }
 ```
+### 박스 가로로 여러개 배치 (왼쪽 정렬)
+float: left 
+clear: both
+```
+<div class="container">
+  <div class="header"></div>
+  <div class="left-menu"></div>
+  <div class="right"></div>
+  <div class="footer"></div>
+</div>
+```
+```
+.container {
+    width: 800px;
+}
+
+.header {
+    width: 100%;    /*부모 width의 100% */
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background-color: cornflowerblue;
+    float: left;    /*왼쪽 정렬*/
+}
+
+.right {
+    width: 80%;
+    height: 400px;
+    background-color: coral;
+    float: left;     /*왼쪽 정렬*/
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: goldenrod;
+    clear: both;    /*float 쓰고 나서 다음에 오는 요소에는 clear를 써줘야 화면에 보임*/
+}
+```
