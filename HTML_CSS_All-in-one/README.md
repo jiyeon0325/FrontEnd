@@ -7,7 +7,7 @@ margin-left: auto; </br>
 margin-right: auto </br>
 ```
 .pic {
-  style="display:block;
+  display:block;
   margin-left:auto; 
   margin-right:auto"
 }
